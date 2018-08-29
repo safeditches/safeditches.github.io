@@ -23,6 +23,14 @@ h1, h2, h3, h3 {
   color: white;
 }
 
+#eventDiv{
+  background-color: #e8453c;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
 #cowDiv {
   background: linear-gradient(
                  rgba(20,20,20, .0),
