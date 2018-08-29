@@ -1,0 +1,244 @@
+/* Color Variables  */
+:root {
+  --blue: #4682ea;
+  --red: #e8453c;
+  --green: #39ca74;
+}
+
+body {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h3 {
+  line-height: 1.7;
+}
+
+#titleDiv {
+  background: linear-gradient(
+                 rgba(20,20,20, .0),
+                 rgba(20,20,20, .6)),
+                 url( ../images/poison1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+#cowDiv {
+  background: linear-gradient(
+                 rgba(20,20,20, .0),
+                 rgba(20,20,20, .2)),
+                 url( ../images/ditch-cow.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 30vh;
+}
+
+#navbar {
+  background-color: rgba(255,255,255,.9);
+  /* background-color: rgba(73,133,231255,.9); */
+  border: none;
+}
+
+#contact {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.primary-section {
+  min-height: 50vh;
+  padding-top:20vh;
+  text-align: center;
+}
+
+.text-section {
+  min-height: 50vh;
+  text-align: center;
+}
+
+.dark-section {
+  min-height: 50vh;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.fat-row {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.fat-bottom{
+  padding-bottom: 80px;
+}
+
+.nav {
+  padding-left: 33px;
+  padding-right: 33px;
+}
+
+.col-photo {
+  height: 30vw;
+  border-color: white;
+  border-style: solid;
+  border-width: 10px;
+}
+
+.col-padding {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-brand {
+  margin-bottom: 40px;
+  font-weight: 600;
+  color: black;
+}
+
+.nav-logo-size {
+  position: absolute;
+  max-height: 40px;
+  top:5px;
+}
+
+.photo-row {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+/* - - - - - - - - - - - - - - - - - - - - */
+/* IMAGES */
+/* - - - - - - - - - - - - - - - - - - - - */
+.watering-logo {
+  height: 200px;
+}
+
+.poison-photo {
+  height: 50vw;
+}
+
+.ditch-alt {
+  width: 100%;
+}
+/* END IMAGES */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+
+
+/* - - - - - - - - - - - - - - - - - - - - */
+/* FONTS */
+/* - - - - - - - - - - - - - - - - - - - - */
+.title-font {
+  font-size: 550%;
+  line-height: 1.5;
+  padding-bottom: 30px;
+  filter: drop-shadow( 2px 2px 2px #000 );
+  font-weight: 300;
+}
+
+.photo-text-overlay {
+  font-size:400%;
+  filter: drop-shadow( 2px 2px 2px #000 );
+}
+
+.large-title {
+  font-size:400%;
+}
+
+.poison-definition {
+  font-size: 160%;
+
+  font-family: 'Scope One', serif;
+}
+
+.bold-font {
+  color: var(--red);
+}
+
+.blue-font {
+  color: var(--blue);
+}
+
+.navbar-font {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: black;
+}
+
+.roundup-link {
+  color: var(--red);
+}
+
+.roundup-link:hover {
+  color: var(--red);
+}
+
+.red-text {
+  color: var(--red);
+}
+
+p {
+  font-size: 140%;
+  font-weight: 300;
+}
+/* END FONTS */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+
+/* - - - - - - - - - - - - - - - - - - - - */
+/* BUTTONS */
+/* - - - - - - - - - - - - - - - - - - - - */
+.btn {
+  text-transform: uppercase;
+}
+.btn-blue {
+  background:  var(--blue);
+  border-color: var(--blue);
+  border-width: medium;
+  color: white;
+  /* color: white; */
+  font-size: 120%;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 500;
+  padding-left:33px;
+  padding-right:33px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-top: 5%;
+}
+
+.btn-blue:hover {
+  border-color: var(--blue);
+  background-color: var(--blue);
+  filter: drop-shadow( 0px 0px 0px #000 );
+}
+
+.btn-blue:focus {
+  background-color: var(--red);
+  border-color: var(--red);
+}
+/* END BUTTONS */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+/* - - - - - - - - - - - - - - - - - - - - */
+
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  .col-padding {
+    padding-bottom: 33px;
+  }
+}
