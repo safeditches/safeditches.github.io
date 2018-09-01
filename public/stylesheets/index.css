@@ -24,7 +24,7 @@ h1, h2, h3, h3 {
 }
 
 #eventDiv{
-  background-color: #e8453c;
+  background-color: var(--red);
   background-size: cover;
   background-position: center;
   color: white;
@@ -196,6 +196,11 @@ h1, h2, h3, h3 {
 
 .red-text {
   color: var(--red);
+}
+
+.active-nav{
+  background-color: var(--blue);
+  color: white;
 }
 
 p {
