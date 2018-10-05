@@ -1,0 +1,49 @@
+.text-section{
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.btn-info{
+  margin-bottom: 15px;
+}
+
+.photo-primary-section {
+  min-height: 20vh;
+  padding-top:10vh;
+  text-align: center;
+}
+
+.gallery-row{
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.electionphoto{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+p {
+  text-align: center;
+}
+
+.Ritchie {
+  background-color: #F2F2F2;
+}
+.footer {
+  text-align: left;
+}
+.divsion {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.btn-danger {
+  padding: 20px;
+  font-size: 60%;
+  margin-top: 10px;
+}
