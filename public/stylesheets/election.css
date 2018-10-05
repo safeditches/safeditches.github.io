@@ -51,3 +51,13 @@ p {
   min-height: 30vh;
   padding-top:10vh;
 }
+.video {
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .btn-danger {
+    padding: 10px;
+    font-size: 50%;
+    margin-top: 10px;
+  }
+}
