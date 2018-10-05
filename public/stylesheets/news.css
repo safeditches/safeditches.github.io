@@ -11,3 +11,8 @@
 .text-section {
   background-color: #F2F2F2;
 }
+
+.primary-section {
+  min-height: 30vh;
+  padding-top:10vh;
+}

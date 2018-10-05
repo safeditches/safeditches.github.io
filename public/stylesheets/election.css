@@ -47,3 +47,7 @@ p {
   font-size: 60%;
   margin-top: 10px;
 }
+.primary-section {
+  min-height: 30vh;
+  padding-top:10vh;
+}
