@@ -1,0 +1,13 @@
+.newstitle {
+  min-height: 20vh;
+  padding-top:10vh;
+  text-align: center;
+}
+
+.news-btn {
+  margin-bottom: 5px;
+}
+
+.text-section {
+  background-color: #F2F2F2;
+}
