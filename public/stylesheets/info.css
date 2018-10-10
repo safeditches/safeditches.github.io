@@ -11,3 +11,8 @@ padding-right: 10px;
 .docItem{
   background-color: #F2F2F2;
 }
+
+.btn-large{
+  padding: 15px;
+  font-size: 140%;
+}
