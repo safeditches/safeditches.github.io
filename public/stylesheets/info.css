@@ -10,9 +10,23 @@ padding-right: 10px;
 
 .docItem{
   background-color: #F2F2F2;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .btn-large{
   padding: 15px;
   font-size: 140%;
+}
+.primary-section {
+  min-height: 30vh;
+  padding-top:10vh;
+}
+/* MOBILE VIEW */
+@media (max-width: 768px) {
+  .primary-section {
+    min-height: 20vh;
+    padding-top:10vh;
+    font-size: 70%;
+  }
 }
