@@ -28,7 +28,9 @@
 p {
   text-align: center;
 }
-
+.divisionMap{
+  max-height: 400px;
+}
 .Ritchie {
   background-color: #F2F2F2;
 }
