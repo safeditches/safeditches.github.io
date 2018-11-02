@@ -1,3 +1,52 @@
+/* Color Variables  */
+:root {
+  --blue: #4682ea;
+  --red: #e8453c;
+  --green: #39ca74;
+}
+#infoTitle {
+  background: linear-gradient(
+                 rgba(20,20,20, .0),
+                 rgba(20,20,20, .6)),
+                 url( ../images/infoCenter/lady_justice.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  min-height: 40vh;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.drop-shadow{
+  filter: drop-shadow( 3px 3px 3px #000 );
+}
+
+.map-text {
+    font-size: 120%;
+    text-align: left;
+}
+
+.safe-panel {
+  background-color: var(--blue);
+  color: white;
+  border-radius: none;
+}
+
+.panel-default .blue-background {
+  background-color: var(--blue);
+  color: white;
+}
+
+.blue-background .panel-title {
+  color: white;
+}
+
+.panel-title {
+  font-weight: 300;
+  color: black;
+  font-size:400%;
+}
+
 .fat-row{
 margin-top: 30px;
 margin-bottom: 40px;
@@ -29,6 +78,12 @@ padding-right: 10px;
     padding-right: 10px;
     text-align: center;
 }
+
+.button-padding {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
 /* MOBILE VIEW */
 @media (max-width: 768px) {
   .primary-section {
