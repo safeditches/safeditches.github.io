@@ -21,6 +21,8 @@ h1, h2, h3, h3 {
   background-size: cover;
   background-position: center;
   color: white;
+  min-height: 30vh;
+  padding-top:10vh;
 }
 
 #eventDiv{
