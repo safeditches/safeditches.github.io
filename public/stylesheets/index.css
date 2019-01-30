@@ -233,6 +233,9 @@ p {
 .btn {
   text-transform: uppercase;
 }
+.btn-big {
+  font-size: 110%;
+}
 .btn-blue {
   background:  var(--blue);
   border-color: var(--blue);
