@@ -16,7 +16,10 @@
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.red{
+  color: var(--red);
+  font-weight: bold;
+}
 .drop-shadow{
   filter: drop-shadow( 3px 3px 3px #000 );
 }
