@@ -13,6 +13,8 @@ h1, h2, h3, h3 {
   line-height: 1.7;
 }
 
+
+
 #titleDiv {
   background: linear-gradient(
                  rgba(20,20,20, .0),
@@ -54,6 +56,7 @@ h1, h2, h3, h3 {
   background-color: black;
   color: white;
 }
+
 .divsion {
   background-color: black;
   color: white;
@@ -203,10 +206,11 @@ h1, h2, h3, h3 {
 
 .roundup-link {
   color: var(--red);
+  text-decoration: underline;
 }
 
-.roundup-link:hover {
-  color: var(--red);
+.link-underline{
+  text-decoration: underline;
 }
 
 .red-text {
