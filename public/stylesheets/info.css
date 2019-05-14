@@ -82,6 +82,22 @@ padding-right: 10px;
     text-align: center;
 }
 
+.outline{
+    outline: 1px solid;
+}
+
+.concerns {
+  background-color: #2677a0;
+  color: white;
+  font-size: 125%;
+}
+
+.concernNumbers {
+  font-size: 130%;
+  font-style: italic;
+  color: #daa520;
+}
+
 .button-padding {
     margin-top:15px;
     margin-bottom:15px;
