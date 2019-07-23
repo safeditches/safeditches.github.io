@@ -93,9 +93,17 @@ padding-right: 10px;
 }
 
 .concernNumbers {
-  font-size: 130%;
+  font-size: 110%;
   font-style: italic;
   color: #daa520;
+}
+
+.big {
+  font-size: 180%;
+}
+
+.med {
+  font-size: 140%;
 }
 
 .button-padding {
