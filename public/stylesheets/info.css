@@ -16,6 +16,9 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+#mapid { max-height: 60%; }
+
 .red{
   color: var(--red);
   font-weight: bold;
